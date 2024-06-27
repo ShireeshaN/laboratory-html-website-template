@@ -683,6 +683,24 @@
     color: #857085;
   }
 
+
+
+
+  .panelleft ul {
+    margin: 10px 20px;
+    padding: 0px;
+    text-indent: -18px;
+  }
+  .panelleft ul li {
+    list-style: none;
+    padding-left: 10px;
+  }
+  .panelleft ul li::before {
+    content: "♦";
+    padding-right: 10px;
+    color: rgb(1, 77, 126) !important;
+  }
+
   
 
 
