@@ -3,58 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Gradient Cards</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Embed YouTube Videos</title>
     <style>
-        .card {
-            transition: transform 0.3s, box-shadow 0.3s;
-            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-            color: white;
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
         }
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-        .card-title {
-            font-style: italic;
-        }
-        .card-text {
-            font-style: italic;
+        iframe {
+            width: 300px;
+            height: 169px; /* Maintain 16:9 aspect ratio */
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card 1</h5>
-                        <p class="card-text">This is card number 1.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card 2</h5>
-                        <p class="card-text">This is card number 2.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card 3</h5>
-                        <p class="card-text">This is card number 3.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/first_video_id" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/second_video_id" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/third_video_id" allowfullscreen></iframe>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
