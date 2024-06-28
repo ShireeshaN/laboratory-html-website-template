@@ -226,6 +226,13 @@
     background-size: cover;
 }
 
+.bg-header{
+
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/hear-aids.jpeg) center center no-repeat;
+    background-size: cover;
+
+}
+
 
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
