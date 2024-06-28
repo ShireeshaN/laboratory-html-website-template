@@ -226,6 +226,8 @@
     background-size: cover;
 }
 
+
+
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--bs-white);
 }
