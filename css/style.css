@@ -246,23 +246,83 @@
 }
 
 .page-header1 {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/sinus-banner.avif) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/dfgh.png) center center no-repeat;
     background-size: cover;
+
 }
 .page-header2 {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/world-red-cross.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/snoringlast.png) center center no-repeat;
     background-size: cover;
 }
 .page-header3 {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/otology-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/otologylast.png) center center no-repeat;
     background-size: cover;
 }
 .page-header4 {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/advanced_asthetic.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/allergylast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header5 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/vertigolast.png) center center no-repeat;
     background-size: cover;
 }
 
-
+.page-header6 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/thyroidelast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header7 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/voicelast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header8 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/voicespeechlast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header9 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/heringaidslast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header10 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/herosection-1.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header11 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/Children’slast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header12 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/childcarelast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header13 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/vactinations.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header14 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/wellbabylast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header15 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/growthlast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header16 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/Infantlast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header17 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/Nebulisationlast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header18 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/phtotherapylast.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header20 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/contactusbanner.png) center center no-repeat;
+    background-size: cover;
+}
 /*** Features ***/
 .feature {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/feature.jpg) left center no-repeat;
