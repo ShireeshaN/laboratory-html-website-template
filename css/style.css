@@ -323,6 +323,10 @@
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/contactusbanner.png) center center no-repeat;
     background-size: cover;
 }
+.page-header21 {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/entservicesimgs/Pediatrics.jpg) center center no-repeat;
+    background-size: cover;
+}
 /*** Features ***/
 .feature {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/feature.jpg) left center no-repeat;
