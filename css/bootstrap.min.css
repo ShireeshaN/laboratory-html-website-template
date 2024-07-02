@@ -641,7 +641,8 @@ progress {
 .container-md,
 .container-sm {
     width: 100%;
-   
+    /* padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem); */
     margin-right: auto;
     margin-left: auto
 }
@@ -4493,7 +4494,11 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
-    padding-bottom: .5rem
+    padding:5px;
+    padding-bottom: .5rem;
+    
+    
+    
 }
 
 .navbar>.container,
