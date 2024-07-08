@@ -710,6 +710,7 @@
 .testimonial {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testibg.avif) left center no-repeat;
     background-size: cover;
+    
 }
 
 .testimonial-item img {
@@ -770,6 +771,7 @@
 .footer {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/footer.png) center center no-repeat;
     background-size: cover;
+    
     
 }
 
