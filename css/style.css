@@ -909,3 +909,53 @@
         }
  
 /* vedios*/
+
+/*aboutsss*/
+
+  .about-img {
+    position: relative;
+}
+
+.about-img .main-img {
+    object-fit: cover;
+    height: 420px;
+}
+
+.about-img-inner {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.about-img-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .about-img {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .about-img .main-img {
+        height: auto;
+    }
+    .about-img-inner {
+        position: static;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-img-inner {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
+}
+
