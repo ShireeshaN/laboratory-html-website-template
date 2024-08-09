@@ -818,11 +818,11 @@
 }
 
 .copyright a {
-    color: var(--bs-white);
+    color: purple;
 }
 
 .copyright a:hover {
-    color: var(--bs-primary);
+    color: var(--bs-white);
 }
 
 .logocs{
@@ -957,5 +957,23 @@
         height: 60px;
         margin-top: 15px;
     }
+}
+
+.contact-info {
+    position: relative;
+    padding-left: 5px; /* Adjust space for the icon */
+}
+
+.icon-outside {
+    position: absolute;
+    left: -30px; /* Position icon outside the text section */
+    top: 20%; /* Vertically center the icon */
+    transform: translateY(-50%);
+    font-size: 20px; /* Adjust icon size */
+    color: #ffffff; /* Icon color */
+}
+
+.text-white {
+    color: #ffffff;
 }
 
