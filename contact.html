@@ -212,30 +212,30 @@
             <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
              
                 <h1>Get In Touch</h1>
-                <form action="https://formsubmit.co/sshospital2021@gmail.com" method="POST">
+                <form action="https://formsubmit.co/sshospital2021@gmail.com" method="POST" onsubmit="return validateName()">
                     <input type="hidden" name="_captcha" value="false">
                     <div class="row g-3">
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name">
+                                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name" pattern="[A-Za-z\s]+" title="Name can only contain letters and spaces" required>
                                 <label for="name">Your Name</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="email" name="Email" placeholder="Your Email">
+                                <input type="email" class="form-control" id="email" name="Email" placeholder="Your Email" required>
                                 <label for="email">Your Email</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject">
+                                <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject" required>
                                 <label for="subject">Subject</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="Message" style="height: 200px"></textarea>
+                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="Message" style="height: 200px" required></textarea>
                                 <label for="message">Message</label>
                             </div>
                         </div>
@@ -257,6 +257,23 @@
     </div>
 </div>
 <!-- Contact End -->
+
+<script>
+    function validateName() {
+        const nameField = document.getElementById('name');
+        const nameValue = nameField.value;
+
+        // Regular expression to match only letters and spaces
+        const nameRegex = /^[A-Za-z\s]+$/;
+
+        if (!nameRegex.test(nameValue)) {
+            alert('Please enter a valid name. Only letters and spaces are allowed.');
+            return false; // Prevent form submission
+        }
+
+        return true; // Allow form submission
+    }
+</script>
 
 
 
